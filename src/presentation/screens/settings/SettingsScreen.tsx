@@ -9,7 +9,7 @@ const SettingsScreen = () => {
     <View style={styles.container}>
       <Stack.Screen
         options={{
-          headerTitle: `${counter}`,
+          headerTitle: `Counter: ${counter}`,
         }}
       />
       <Pressable style={styles.primaryButton} onPress={() => incrementBy(1)}>
